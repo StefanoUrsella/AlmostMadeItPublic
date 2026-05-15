@@ -1,0 +1,49 @@
+[gd_scene format=3 uid="uid://u5b1skcm0fj0"]
+
+[ext_resource type="PackedScene" uid="uid://bcinbkisqj4ry" path="res://player.tscn" id="1_evqh8"]
+[ext_resource type="PackedScene" uid="uid://cnf44241eti5v" path="res://Peso.tscn" id="2_xgj0t"]
+[ext_resource type="Script" uid="uid://bnku5dnyjfi5n" path="res://camera_holder.gd" id="3_xq3cg"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_evqh8"]
+size = Vector3(10, 0.2, 10)
+
+[sub_resource type="BoxMesh" id="BoxMesh_xgj0t"]
+size = Vector3(10, 0.2, 10)
+
+[node name="Node3D" type="Node3D" unique_id=82849398]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=218849427]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=2111941423]
+shape = SubResource("BoxShape3D_evqh8")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D" unique_id=182945236]
+mesh = SubResource("BoxMesh_xgj0t")
+
+[node name="DirectionalLight3D2" type="DirectionalLight3D" parent="." unique_id=2010192764]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 34.6848, -19.262722)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1803581006]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 17.3424, 14.22477)
+
+[node name="Peso" parent="." unique_id=1761256332 instance=ExtResource("2_xgj0t")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.1988301, 0.5999999, -0.49282932)
+
+[node name="Player1" parent="." unique_id=162054076 instance=ExtResource("1_evqh8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.2498275, 1.0999994, 0.016422272)
+grab_distance = 2.0
+
+[node name="CameraHolder" type="Node3D" parent="Player1" unique_id=341893255]
+script = ExtResource("3_xq3cg")
+
+[node name="Camera3D" type="Camera3D" parent="Player1/CameraHolder" unique_id=748993978]
+transform = Transform3D(1, 0, 0, 0, 0.9641232, 0.26545516, 0, -0.26545516, 0.9641232, 0, 1.6413319, 3.9061613)
+
+[node name="Player2" parent="." unique_id=2013756688 instance=ExtResource("1_evqh8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.7500505, 1.0999994, -0.52783394)
+input_sinistra = "sinistra2"
+input_destra = "destra2"
+input_su = "su2"
+grab_distance = 2.0
+grab_key = "afferrare2"
+throw_key = "lanciare2"

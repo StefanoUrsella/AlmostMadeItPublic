@@ -1,0 +1,142 @@
+[gd_scene format=3 uid="uid://bf8qmal5thm4d"]
+
+[ext_resource type="PackedScene" uid="uid://b54s3x2g2tev7" path="res://assets/kenney_watercraft-pack/Models/GLB format/arrow-standing.glb" id="1_lqach"]
+[ext_resource type="PackedScene" uid="uid://d1ssxv8udpjc0" path="res://assets/kenney_watercraft-pack/Models/GLB format/arrow.glb" id="2_fvre1"]
+[ext_resource type="PackedScene" uid="uid://el3og02v2ftn" path="res://assets/kenney_watercraft-pack/Models/GLB format/boat-fan.glb" id="3_t462h"]
+[ext_resource type="PackedScene" uid="uid://hqxulaew15sl" path="res://assets/kenney_watercraft-pack/Models/GLB format/boat-fishing-small.glb" id="4_ggjqj"]
+[ext_resource type="PackedScene" uid="uid://ct4qkgcvpjsda" path="res://assets/kenney_watercraft-pack/Models/GLB format/boat-house-a.glb" id="5_pgqsy"]
+[ext_resource type="PackedScene" uid="uid://bhia32kinox7" path="res://assets/kenney_watercraft-pack/Models/GLB format/boat-house-b.glb" id="6_n1epu"]
+[ext_resource type="PackedScene" uid="uid://dl4odwvov3tis" path="res://assets/kenney_watercraft-pack/Models/GLB format/boat-house-c.glb" id="7_6n2m7"]
+[ext_resource type="PackedScene" uid="uid://dsntxkbk0lexq" path="res://assets/kenney_watercraft-pack/Models/GLB format/boat-house-d.glb" id="8_70udw"]
+[ext_resource type="PackedScene" uid="uid://by2f4dv5xrhan" path="res://assets/kenney_watercraft-pack/Models/GLB format/boat-row-large.glb" id="9_npkmr"]
+[ext_resource type="PackedScene" uid="uid://cjaaxcj3l0wyy" path="res://assets/kenney_watercraft-pack/Models/GLB format/boat-row-small.glb" id="10_o2jxw"]
+[ext_resource type="PackedScene" uid="uid://c5v3vx7ubs8vo" path="res://assets/kenney_watercraft-pack/Models/GLB format/boat-sail-a.glb" id="11_jpb62"]
+[ext_resource type="PackedScene" uid="uid://ctslv3rw56qtr" path="res://assets/kenney_watercraft-pack/Models/GLB format/boat-sail-b.glb" id="12_ijsua"]
+[ext_resource type="PackedScene" uid="uid://bca40fyttvxr4" path="res://assets/kenney_watercraft-pack/Models/GLB format/boat-speed-a.glb" id="13_vr3cf"]
+[ext_resource type="PackedScene" uid="uid://dctaanx1k2fiv" path="res://assets/kenney_watercraft-pack/Models/GLB format/boat-speed-b.glb" id="14_x6x71"]
+[ext_resource type="PackedScene" uid="uid://8nlda4h1r0cq" path="res://assets/kenney_watercraft-pack/Models/GLB format/boat-speed-c.glb" id="15_np7gf"]
+[ext_resource type="PackedScene" uid="uid://dvrqy8qamb0la" path="res://assets/kenney_watercraft-pack/Models/GLB format/boat-speed-d.glb" id="16_bugce"]
+[ext_resource type="PackedScene" uid="uid://dpirkpnf6nt2f" path="res://assets/kenney_watercraft-pack/Models/GLB format/boat-speed-e.glb" id="17_1u448"]
+[ext_resource type="PackedScene" uid="uid://df4pt567ciwr3" path="res://assets/kenney_watercraft-pack/Models/GLB format/boat-speed-f.glb" id="18_g8kbn"]
+[ext_resource type="PackedScene" uid="uid://2pex124lrlbk" path="res://assets/kenney_watercraft-pack/Models/GLB format/boat-speed-g.glb" id="19_iutuv"]
+[ext_resource type="PackedScene" uid="uid://bcgnx2afbpyq2" path="res://assets/kenney_watercraft-pack/Models/GLB format/boat-speed-h.glb" id="20_032ra"]
+[ext_resource type="PackedScene" uid="uid://3gav080bro2u" path="res://assets/kenney_watercraft-pack/Models/GLB format/boat-speed-i.glb" id="21_2wwrv"]
+[ext_resource type="PackedScene" uid="uid://cyymkv5rva38" path="res://assets/kenney_watercraft-pack/Models/GLB format/boat-speed-j.glb" id="22_r5taa"]
+[ext_resource type="PackedScene" uid="uid://cbif0ux6frfoq" path="res://assets/kenney_watercraft-pack/Models/GLB format/boat-tow-a.glb" id="23_hgsga"]
+[ext_resource type="PackedScene" uid="uid://bc7fxe70nvldo" path="res://assets/kenney_watercraft-pack/Models/GLB format/boat-tow-b.glb" id="24_o8dih"]
+[ext_resource type="PackedScene" uid="uid://ctrnsqudd6y6m" path="res://assets/kenney_watercraft-pack/Models/GLB format/boat-tug-a.glb" id="25_3k1ls"]
+[ext_resource type="PackedScene" uid="uid://dxmjbecc38e23" path="res://assets/kenney_watercraft-pack/Models/GLB format/boat-tug-b.glb" id="26_hj3sx"]
+[ext_resource type="PackedScene" uid="uid://rha8ljdex5mx" path="res://assets/kenney_watercraft-pack/Models/GLB format/boat-tug-c.glb" id="27_ouhdb"]
+[ext_resource type="PackedScene" uid="uid://cx340a0j8fcy1" path="res://assets/kenney_watercraft-pack/Models/GLB format/buoy-flag.glb" id="28_ylvvo"]
+[ext_resource type="PackedScene" uid="uid://behx61bvp0k5d" path="res://assets/kenney_watercraft-pack/Models/GLB format/buoy.glb" id="29_eqf5i"]
+[ext_resource type="PackedScene" uid="uid://c0yq8yc17hibl" path="res://assets/kenney_watercraft-pack/Models/GLB format/cargo-container-a.glb" id="30_edvwg"]
+[ext_resource type="PackedScene" uid="uid://b5ul6knwcm3eb" path="res://assets/kenney_watercraft-pack/Models/GLB format/cargo-container-b.glb" id="31_uhh88"]
+[ext_resource type="PackedScene" uid="uid://dk3q6r37v3xms" path="res://assets/kenney_watercraft-pack/Models/GLB format/cargo-container-c.glb" id="32_ll3d3"]
+[ext_resource type="PackedScene" uid="uid://4hwqpxqo54yw" path="res://assets/kenney_watercraft-pack/Models/GLB format/cargo-pile-a.glb" id="33_1rhgp"]
+[ext_resource type="PackedScene" uid="uid://4oibjo5skcyf" path="res://assets/kenney_watercraft-pack/Models/GLB format/cargo-pile-b.glb" id="34_a0yvd"]
+[ext_resource type="PackedScene" uid="uid://c4dap20wee3f4" path="res://assets/kenney_watercraft-pack/Models/GLB format/gate-finish.glb" id="35_qhorn"]
+[ext_resource type="PackedScene" uid="uid://cs20u8sb8p2ep" path="res://assets/kenney_watercraft-pack/Models/GLB format/gate.glb" id="36_6r805"]
+[ext_resource type="PackedScene" uid="uid://bmw3txi1k5l5w" path="res://assets/kenney_watercraft-pack/Models/GLB format/ramp-wide.glb" id="37_ei3y5"]
+[ext_resource type="PackedScene" uid="uid://bfabdnkvd4u4n" path="res://assets/kenney_watercraft-pack/Models/GLB format/ramp.glb" id="38_li44h"]
+[ext_resource type="PackedScene" uid="uid://bn18gt5miro8l" path="res://assets/kenney_watercraft-pack/Models/GLB format/ship-cargo-a.glb" id="39_swv13"]
+[ext_resource type="PackedScene" uid="uid://byo06h4atpoux" path="res://assets/kenney_watercraft-pack/Models/GLB format/ship-cargo-b.glb" id="40_gadam"]
+[ext_resource type="PackedScene" uid="uid://koxbxlh2hewr" path="res://assets/kenney_watercraft-pack/Models/GLB format/ship-cargo-c.glb" id="41_l5ift"]
+[ext_resource type="PackedScene" uid="uid://gag2wrswfmlv" path="res://assets/kenney_watercraft-pack/Models/GLB format/ship-large.glb" id="42_ommh1"]
+[ext_resource type="PackedScene" uid="uid://chghvc8dg5aov" path="res://assets/kenney_watercraft-pack/Models/GLB format/ship-ocean-liner-small.glb" id="43_c2qlq"]
+[ext_resource type="PackedScene" uid="uid://dkfc51b7a8mg0" path="res://assets/kenney_watercraft-pack/Models/GLB format/ship-ocean-liner.glb" id="44_hf3mk"]
+[ext_resource type="PackedScene" uid="uid://vqh613bi4ofg" path="res://assets/kenney_watercraft-pack/Models/GLB format/ship-small-ghost.glb" id="45_otxyf"]
+[ext_resource type="PackedScene" uid="uid://rvt5ftswi1y" path="res://assets/kenney_watercraft-pack/Models/GLB format/ship-small.glb" id="46_x64km"]
+
+[node name="tiles_navi" type="Node3D" unique_id=469926383]
+
+[node name="arrow-standing2" parent="." unique_id=1662277204 instance=ExtResource("1_lqach")]
+
+[node name="arrow2" parent="." unique_id=1033518619 instance=ExtResource("2_fvre1")]
+
+[node name="boat-fan2" parent="." unique_id=1210636959 instance=ExtResource("3_t462h")]
+
+[node name="boat-fishing-small2" parent="." unique_id=1162248721 instance=ExtResource("4_ggjqj")]
+
+[node name="boat-house-a2" parent="." unique_id=1927608022 instance=ExtResource("5_pgqsy")]
+
+[node name="boat-house-b2" parent="." unique_id=1412621130 instance=ExtResource("6_n1epu")]
+
+[node name="boat-house-c2" parent="." unique_id=401789380 instance=ExtResource("7_6n2m7")]
+
+[node name="boat-house-d2" parent="." unique_id=963855275 instance=ExtResource("8_70udw")]
+
+[node name="boat-row-large2" parent="." unique_id=1110556160 instance=ExtResource("9_npkmr")]
+
+[node name="boat-row-small2" parent="." unique_id=920779297 instance=ExtResource("10_o2jxw")]
+
+[node name="boat-sail-a2" parent="." unique_id=961531446 instance=ExtResource("11_jpb62")]
+
+[node name="boat-sail-b2" parent="." unique_id=1841662507 instance=ExtResource("12_ijsua")]
+
+[node name="boat-speed-a2" parent="." unique_id=949299205 instance=ExtResource("13_vr3cf")]
+
+[node name="boat-speed-b2" parent="." unique_id=1938137495 instance=ExtResource("14_x6x71")]
+
+[node name="boat-speed-c2" parent="." unique_id=1367805658 instance=ExtResource("15_np7gf")]
+
+[node name="boat-speed-d2" parent="." unique_id=1837191347 instance=ExtResource("16_bugce")]
+
+[node name="boat-speed-e2" parent="." unique_id=1091359409 instance=ExtResource("17_1u448")]
+
+[node name="boat-speed-f2" parent="." unique_id=928177078 instance=ExtResource("18_g8kbn")]
+
+[node name="boat-speed-g2" parent="." unique_id=391840920 instance=ExtResource("19_iutuv")]
+
+[node name="boat-speed-h2" parent="." unique_id=216388061 instance=ExtResource("20_032ra")]
+
+[node name="boat-speed-i2" parent="." unique_id=1002627918 instance=ExtResource("21_2wwrv")]
+
+[node name="boat-speed-j2" parent="." unique_id=48694579 instance=ExtResource("22_r5taa")]
+
+[node name="boat-tow-a2" parent="." unique_id=1431512545 instance=ExtResource("23_hgsga")]
+
+[node name="boat-tow-b2" parent="." unique_id=1741182213 instance=ExtResource("24_o8dih")]
+
+[node name="boat-tug-a2" parent="." unique_id=2119390402 instance=ExtResource("25_3k1ls")]
+
+[node name="boat-tug-b2" parent="." unique_id=850856668 instance=ExtResource("26_hj3sx")]
+
+[node name="boat-tug-c2" parent="." unique_id=1077034536 instance=ExtResource("27_ouhdb")]
+
+[node name="buoy-flag2" parent="." unique_id=1096834157 instance=ExtResource("28_ylvvo")]
+
+[node name="buoy2" parent="." unique_id=102544808 instance=ExtResource("29_eqf5i")]
+
+[node name="cargo-container-a2" parent="." unique_id=1815305149 instance=ExtResource("30_edvwg")]
+
+[node name="cargo-container-b2" parent="." unique_id=603422296 instance=ExtResource("31_uhh88")]
+
+[node name="cargo-container-c2" parent="." unique_id=209063621 instance=ExtResource("32_ll3d3")]
+
+[node name="cargo-pile-a2" parent="." unique_id=701699247 instance=ExtResource("33_1rhgp")]
+
+[node name="cargo-pile-b2" parent="." unique_id=1691064536 instance=ExtResource("34_a0yvd")]
+
+[node name="gate-finish2" parent="." unique_id=824259769 instance=ExtResource("35_qhorn")]
+
+[node name="gate2" parent="." unique_id=1086123783 instance=ExtResource("36_6r805")]
+
+[node name="ramp-wide2" parent="." unique_id=646214837 instance=ExtResource("37_ei3y5")]
+
+[node name="ramp2" parent="." unique_id=496419156 instance=ExtResource("38_li44h")]
+
+[node name="ship-cargo-a2" parent="." unique_id=682701052 instance=ExtResource("39_swv13")]
+
+[node name="ship-cargo-b2" parent="." unique_id=1063435540 instance=ExtResource("40_gadam")]
+
+[node name="ship-cargo-c2" parent="." unique_id=1137284217 instance=ExtResource("41_l5ift")]
+
+[node name="ship-large2" parent="." unique_id=1578276337 instance=ExtResource("42_ommh1")]
+
+[node name="ship-ocean-liner-small2" parent="." unique_id=1213939874 instance=ExtResource("43_c2qlq")]
+
+[node name="ship-ocean-liner2" parent="." unique_id=650844680 instance=ExtResource("44_hf3mk")]
+
+[node name="ship-small-ghost2" parent="." unique_id=417364546 instance=ExtResource("45_otxyf")]
+
+[node name="ship-small2" parent="." unique_id=1794109783 instance=ExtResource("46_x64km")]

@@ -1,0 +1,127 @@
+[gd_scene format=3 uid="uid://btvkyayqcbj75"]
+
+[ext_resource type="PackedScene" uid="uid://2y03pgpid8ph" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/base.gltf" id="1_lv5au"]
+[ext_resource type="PackedScene" uid="uid://d4lqgdfbnxby2" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/bench.gltf" id="2_0844f"]
+[ext_resource type="PackedScene" uid="uid://dk2smca2esfd6" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/box_A.gltf" id="3_p3nbj"]
+[ext_resource type="PackedScene" uid="uid://cd3553qtenk5r" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/box_B.gltf" id="4_31kfo"]
+[ext_resource type="PackedScene" uid="uid://dhp3sl3fkcnjc" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/building_A.gltf" id="5_ess18"]
+[ext_resource type="PackedScene" uid="uid://bbie1mtrnb1vt" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/building_A_withoutBase.gltf" id="6_65y5e"]
+[ext_resource type="PackedScene" uid="uid://csoxbx0khu2mj" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/building_B.gltf" id="7_ask2u"]
+[ext_resource type="PackedScene" uid="uid://uh5pbct6xvn0" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/building_B_withoutBase.gltf" id="8_w34r4"]
+[ext_resource type="PackedScene" uid="uid://cl6bspf8oouc2" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/building_C.gltf" id="9_23eky"]
+[ext_resource type="PackedScene" uid="uid://c5ud8iys5u4ph" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/building_C_withoutBase.gltf" id="10_yvjo3"]
+[ext_resource type="PackedScene" uid="uid://bpfjypqcs4112" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/building_D.gltf" id="11_h3ims"]
+[ext_resource type="PackedScene" uid="uid://b1w8si6eh5gpj" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/building_D_withoutBase.gltf" id="12_m854f"]
+[ext_resource type="PackedScene" uid="uid://cfomt6uid4dri" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/building_E.gltf" id="13_oloet"]
+[ext_resource type="PackedScene" uid="uid://ckiafmurm4acg" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/building_E_withoutBase.gltf" id="14_dc4wy"]
+[ext_resource type="PackedScene" uid="uid://blu180t51vudv" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/building_F.gltf" id="15_hwh0r"]
+[ext_resource type="PackedScene" uid="uid://dutej228ydvbt" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/building_F_withoutBase.gltf" id="16_gos4a"]
+[ext_resource type="PackedScene" uid="uid://0e4n467yp13t" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/building_G.gltf" id="17_cj33i"]
+[ext_resource type="PackedScene" uid="uid://00y2pnqvorie" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/building_G_withoutBase.gltf" id="18_30huk"]
+[ext_resource type="PackedScene" uid="uid://bn4w5c7e1fum3" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/building_H.gltf" id="19_54dw8"]
+[ext_resource type="PackedScene" uid="uid://rd2cx7qqhbib" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/building_H_withoutBase.gltf" id="20_pv8fb"]
+[ext_resource type="PackedScene" uid="uid://1omdcqfg3hl5" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/bush.gltf" id="21_ovsoo"]
+[ext_resource type="PackedScene" uid="uid://b35en3xix0t1f" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/car_hatchback.gltf" id="22_15erq"]
+[ext_resource type="PackedScene" uid="uid://tq7x2l5ptvgf" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/car_police.gltf" id="23_dtdk2"]
+[ext_resource type="PackedScene" uid="uid://l6o0hy37dh65" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/car_sedan.gltf" id="24_55hy3"]
+[ext_resource type="PackedScene" uid="uid://dg27pdgdud8kl" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/car_stationwagon.gltf" id="25_57238"]
+[ext_resource type="PackedScene" uid="uid://cyp2n3qr67unv" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/car_taxi.gltf" id="26_kc154"]
+[ext_resource type="PackedScene" uid="uid://ccbwtcts7yj2i" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/dumpster.gltf" id="27_dpwfr"]
+[ext_resource type="PackedScene" uid="uid://r352334lr0ix" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/firehydrant.gltf" id="28_gyyku"]
+[ext_resource type="PackedScene" uid="uid://mf5i1vir5oyl" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/road_corner.gltf" id="29_swikr"]
+[ext_resource type="PackedScene" uid="uid://bm8afa711dbkw" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/road_corner_curved.gltf" id="30_uj6kf"]
+[ext_resource type="PackedScene" uid="uid://bkj2p5vwbt504" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/road_junction.gltf" id="31_bgd5v"]
+[ext_resource type="PackedScene" uid="uid://dlf56gli0ch4l" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/road_straight.gltf" id="32_visc7"]
+[ext_resource type="PackedScene" uid="uid://d3j5mqolvsn1t" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/road_straight_crossing.gltf" id="33_ssxl3"]
+[ext_resource type="PackedScene" uid="uid://csedq87j2ahxt" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/road_tsplit.gltf" id="34_x0n8t"]
+[ext_resource type="PackedScene" uid="uid://wyt44jempa1e" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/streetlight.gltf" id="35_xoruu"]
+[ext_resource type="PackedScene" uid="uid://bt23osjd5ratl" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/trafficlight_A.gltf" id="36_ufonj"]
+[ext_resource type="PackedScene" uid="uid://e0pynww2q2s4" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/trafficlight_B.gltf" id="37_htot4"]
+[ext_resource type="PackedScene" uid="uid://c460ujl2rtis1" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/trafficlight_C.gltf" id="38_n1260"]
+[ext_resource type="PackedScene" uid="uid://j6bebobfjp36" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/trash_A.gltf" id="39_733fq"]
+[ext_resource type="PackedScene" uid="uid://8xsjtbte5j1a" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/trash_B.gltf" id="40_s7yns"]
+[ext_resource type="PackedScene" uid="uid://b1b7aq25be5s2" path="res://assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/watertower.gltf" id="41_tdbxr"]
+
+[node name="tiles_città" type="Node3D" unique_id=827169859]
+
+[node name="base2" parent="." unique_id=1591981046 instance=ExtResource("1_lv5au")]
+
+[node name="bench2" parent="." unique_id=354710424 instance=ExtResource("2_0844f")]
+
+[node name="box_A2" parent="." unique_id=674100495 instance=ExtResource("3_p3nbj")]
+
+[node name="box_B2" parent="." unique_id=1317047223 instance=ExtResource("4_31kfo")]
+
+[node name="building_A2" parent="." unique_id=348004841 instance=ExtResource("5_ess18")]
+
+[node name="building_A_withoutBase2" parent="." unique_id=114982833 instance=ExtResource("6_65y5e")]
+
+[node name="building_B2" parent="." unique_id=1983261674 instance=ExtResource("7_ask2u")]
+
+[node name="building_B_withoutBase2" parent="." unique_id=1190457293 instance=ExtResource("8_w34r4")]
+
+[node name="building_C2" parent="." unique_id=165165921 instance=ExtResource("9_23eky")]
+
+[node name="building_C_withoutBase2" parent="." unique_id=1196797550 instance=ExtResource("10_yvjo3")]
+
+[node name="building_D2" parent="." unique_id=1479453886 instance=ExtResource("11_h3ims")]
+
+[node name="building_D_withoutBase2" parent="." unique_id=1605799758 instance=ExtResource("12_m854f")]
+
+[node name="building_E2" parent="." unique_id=890968364 instance=ExtResource("13_oloet")]
+
+[node name="building_E_withoutBase2" parent="." unique_id=1289037299 instance=ExtResource("14_dc4wy")]
+
+[node name="building_F2" parent="." unique_id=216972642 instance=ExtResource("15_hwh0r")]
+
+[node name="building_F_withoutBase2" parent="." unique_id=695019450 instance=ExtResource("16_gos4a")]
+
+[node name="building_G2" parent="." unique_id=743582180 instance=ExtResource("17_cj33i")]
+
+[node name="building_G_withoutBase2" parent="." unique_id=1567576178 instance=ExtResource("18_30huk")]
+
+[node name="building_H2" parent="." unique_id=418376486 instance=ExtResource("19_54dw8")]
+
+[node name="building_H_withoutBase2" parent="." unique_id=2137726112 instance=ExtResource("20_pv8fb")]
+
+[node name="bush2" parent="." unique_id=800593446 instance=ExtResource("21_ovsoo")]
+
+[node name="car_hatchback2" parent="." unique_id=1472482170 instance=ExtResource("22_15erq")]
+
+[node name="car_police2" parent="." unique_id=737156023 instance=ExtResource("23_dtdk2")]
+
+[node name="car_sedan2" parent="." unique_id=211533622 instance=ExtResource("24_55hy3")]
+
+[node name="car_stationwagon2" parent="." unique_id=838125870 instance=ExtResource("25_57238")]
+
+[node name="car_taxi2" parent="." unique_id=182600035 instance=ExtResource("26_kc154")]
+
+[node name="dumpster2" parent="." unique_id=1011271569 instance=ExtResource("27_dpwfr")]
+
+[node name="firehydrant2" parent="." unique_id=938109715 instance=ExtResource("28_gyyku")]
+
+[node name="road_corner2" parent="." unique_id=1120029315 instance=ExtResource("29_swikr")]
+
+[node name="road_corner_curved2" parent="." unique_id=775709271 instance=ExtResource("30_uj6kf")]
+
+[node name="road_junction2" parent="." unique_id=967188848 instance=ExtResource("31_bgd5v")]
+
+[node name="road_straight2" parent="." unique_id=1764546340 instance=ExtResource("32_visc7")]
+
+[node name="road_straight_crossing2" parent="." unique_id=1301385215 instance=ExtResource("33_ssxl3")]
+
+[node name="road_tsplit2" parent="." unique_id=971690802 instance=ExtResource("34_x0n8t")]
+
+[node name="streetlight2" parent="." unique_id=251713940 instance=ExtResource("35_xoruu")]
+
+[node name="trafficlight_A2" parent="." unique_id=226289630 instance=ExtResource("36_ufonj")]
+
+[node name="trafficlight_B2" parent="." unique_id=2000273938 instance=ExtResource("37_htot4")]
+
+[node name="trafficlight_C2" parent="." unique_id=475874834 instance=ExtResource("38_n1260")]
+
+[node name="trash_A2" parent="." unique_id=765986979 instance=ExtResource("39_733fq")]
+
+[node name="trash_B2" parent="." unique_id=1969472200 instance=ExtResource("40_s7yns")]
+
+[node name="watertower2" parent="." unique_id=1479082572 instance=ExtResource("41_tdbxr")]

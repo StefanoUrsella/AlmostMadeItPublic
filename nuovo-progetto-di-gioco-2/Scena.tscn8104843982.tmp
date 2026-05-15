@@ -1,0 +1,48 @@
+[gd_scene format=3 uid="uid://u5b1skcm0fj0"]
+
+[ext_resource type="PackedScene" uid="uid://bcinbkisqj4ry" path="res://player.tscn" id="1_evqh8"]
+[ext_resource type="PackedScene" uid="uid://cnf44241eti5v" path="res://Peso.tscn" id="2_xgj0t"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_evqh8"]
+size = Vector3(10, 0.2, 10)
+
+[sub_resource type="BoxMesh" id="BoxMesh_xgj0t"]
+size = Vector3(10, 0.2, 10)
+
+[node name="Node3D" type="Node3D" unique_id=82849398]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=218849427]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=2111941423]
+shape = SubResource("BoxShape3D_evqh8")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D" unique_id=182945236]
+mesh = SubResource("BoxMesh_xgj0t")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1803581006]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 17.3424, 0)
+
+[node name="Player1" parent="." unique_id=162054076 instance=ExtResource("1_evqh8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.3249321, 1.0999999, -0.3157196)
+input_sinistra = "sinistra1"
+input_destra = "destra1"
+input_su = "su1"
+grab_distance = 10.0
+grab_key = "afferrare1"
+
+[node name="Player2" parent="." unique_id=327558605 instance=ExtResource("1_evqh8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.9338932, 0.9773272, 0.08422184)
+input_sinistra = "sinistra2"
+input_destra = "destra2"
+input_su = "su2"
+grab_distance = 10.0
+grab_key = "afferrare2"
+
+[node name="MeshInstance3D" parent="Player2" index="0" unique_id=1508558873]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.04561782)
+
+[node name="Peso" parent="." unique_id=1761256332 instance=ExtResource("2_xgj0t")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.1988301, 0.5999999, -0.49282932)
+
+[editable path="Player1"]
+[editable path="Player2"]

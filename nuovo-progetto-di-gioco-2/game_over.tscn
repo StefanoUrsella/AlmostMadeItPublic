@@ -1,0 +1,71 @@
+[gd_scene format=3 uid="uid://dt3kipa40mn0f"]
+
+[ext_resource type="FontFile" uid="uid://jowoe7u4csmc" path="res://fonts/Ithaca-LVB75.ttf" id="2_ccer4"]
+[ext_resource type="Script" uid="uid://ymg5ht6y1v78" path="res://button.gd" id="2_yxx3c"]
+
+[node name="GameOver" type="Control" unique_id=87159978]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Lose" type="Panel" parent="." unique_id=1429962220]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="Lose" unique_id=1581269553]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 195.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(1, 0.00999999, 0.00999999, 1)
+theme_override_fonts/font = ExtResource("2_ccer4")
+theme_override_font_sizes/font_size = 200
+text = "GameOver"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="Lose" unique_id=1853211575]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -319.0
+offset_top = -97.5
+offset_right = 319.0
+offset_bottom = 97.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("2_ccer4")
+theme_override_font_sizes/font_size = 65
+text = "Press the button below to return to the main menu"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button" type="Button" parent="." unique_id=1796573905]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 270.0
+offset_top = -138.0
+offset_right = -282.0
+offset_bottom = -38.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_fonts/font = ExtResource("2_ccer4")
+theme_override_font_sizes/font_size = 60
+text = "EXIT"
+script = ExtResource("2_yxx3c")
+
+[connection signal="pressed" from="Button" to="Button" method="_on_pressed"]

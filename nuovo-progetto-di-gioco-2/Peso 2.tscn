@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://d0a6ttxu35ymt"]
+
+[ext_resource type="Script" uid="uid://cpekfxtoqg1v3" path="res://peso.gd" id="1_424u6"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_424u6"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_33qpu"]
+radius = 0.15
+height = 0.3
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_hmscv"]
+radius = 0.15
+
+[node name="Peso" type="RigidBody3D" unique_id=1761256332 groups=["grabbable"]]
+axis_lock_linear_z = true
+physics_material_override = SubResource("PhysicsMaterial_424u6")
+script = ExtResource("1_424u6")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=111640821]
+mesh = SubResource("SphereMesh_33qpu")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1590379718]
+shape = SubResource("SphereShape3D_hmscv")

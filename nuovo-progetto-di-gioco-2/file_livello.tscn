@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://bvydknxwrnuco"]
+
+[ext_resource type="Script" uid="uid://ce3t8noi8duuc" path="res://file_livello.gd" id="1_ey3h8"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_yiuyb"]
+size = Vector3(2, 0.01, 2)
+
+[node name="File_livello" type="Area3D" unique_id=456228482]
+script = ExtResource("1_ey3h8")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=154403500]
+shape = SubResource("BoxShape3D_yiuyb")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

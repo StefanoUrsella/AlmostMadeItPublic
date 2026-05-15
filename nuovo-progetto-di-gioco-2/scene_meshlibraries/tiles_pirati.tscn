@@ -1,0 +1,220 @@
+[gd_scene format=3 uid="uid://b06613mv1naew"]
+
+[ext_resource type="PackedScene" uid="uid://ckqswcvcj1k6s" path="res://assets/kenney_pirate-kit/Models/GLB format/barrel.glb" id="1_7mn2v"]
+[ext_resource type="PackedScene" uid="uid://cmt8ftirsevg7" path="res://assets/kenney_pirate-kit/Models/GLB format/boat-row-large.glb" id="2_l0pre"]
+[ext_resource type="PackedScene" uid="uid://cthmw8416eg1g" path="res://assets/kenney_pirate-kit/Models/GLB format/boat-row-small.glb" id="3_44uie"]
+[ext_resource type="PackedScene" uid="uid://c7a75brs8fnx7" path="res://assets/kenney_pirate-kit/Models/GLB format/bottle-large.glb" id="4_4onpr"]
+[ext_resource type="PackedScene" uid="uid://co5wjqqmlnxd5" path="res://assets/kenney_pirate-kit/Models/GLB format/bottle.glb" id="5_jkdqj"]
+[ext_resource type="PackedScene" uid="uid://ccwsl71q87wj1" path="res://assets/kenney_pirate-kit/Models/GLB format/cannon-ball.glb" id="6_0gmo1"]
+[ext_resource type="PackedScene" uid="uid://bf4hf0qxtqv3b" path="res://assets/kenney_pirate-kit/Models/GLB format/cannon-mobile.glb" id="7_474em"]
+[ext_resource type="PackedScene" uid="uid://b7e0u85gm6dfx" path="res://assets/kenney_pirate-kit/Models/GLB format/cannon.glb" id="8_y1psq"]
+[ext_resource type="PackedScene" uid="uid://bub4tbx4snvn4" path="res://assets/kenney_pirate-kit/Models/GLB format/castle-door.glb" id="9_1d65m"]
+[ext_resource type="PackedScene" uid="uid://cnxu7luc32iab" path="res://assets/kenney_pirate-kit/Models/GLB format/castle-gate.glb" id="10_tx8eg"]
+[ext_resource type="PackedScene" uid="uid://cifnv0v7xw26g" path="res://assets/kenney_pirate-kit/Models/GLB format/castle-wall.glb" id="11_5ge0x"]
+[ext_resource type="PackedScene" uid="uid://bj454gf8dcrmc" path="res://assets/kenney_pirate-kit/Models/GLB format/castle-window.glb" id="12_t3m0v"]
+[ext_resource type="PackedScene" uid="uid://bd0q5qw4qqilc" path="res://assets/kenney_pirate-kit/Models/GLB format/chest.glb" id="13_soiw4"]
+[ext_resource type="PackedScene" uid="uid://ryq0ehspy7gq" path="res://assets/kenney_pirate-kit/Models/GLB format/crate-bottles.glb" id="14_73qcc"]
+[ext_resource type="PackedScene" uid="uid://c6lmvq6jqxh7a" path="res://assets/kenney_pirate-kit/Models/GLB format/crate.glb" id="15_lw3vt"]
+[ext_resource type="PackedScene" uid="uid://e3156g251k2p" path="res://assets/kenney_pirate-kit/Models/GLB format/flag-high-pennant.glb" id="16_n7kpk"]
+[ext_resource type="PackedScene" uid="uid://bskkpj583xvjl" path="res://assets/kenney_pirate-kit/Models/GLB format/flag-high.glb" id="17_k07a4"]
+[ext_resource type="PackedScene" uid="uid://6dol816usn57" path="res://assets/kenney_pirate-kit/Models/GLB format/flag-pennant.glb" id="18_h08k1"]
+[ext_resource type="PackedScene" uid="uid://c83xrhpeti5y2" path="res://assets/kenney_pirate-kit/Models/GLB format/flag-pirate-high-pennant.glb" id="19_sik7c"]
+[ext_resource type="PackedScene" uid="uid://b1y32eijvlbdl" path="res://assets/kenney_pirate-kit/Models/GLB format/flag-pirate-high.glb" id="20_xayc4"]
+[ext_resource type="PackedScene" uid="uid://d2p32u0cxr8ub" path="res://assets/kenney_pirate-kit/Models/GLB format/flag-pirate-pennant.glb" id="21_3ax4k"]
+[ext_resource type="PackedScene" uid="uid://ln3w37pq04cc" path="res://assets/kenney_pirate-kit/Models/GLB format/flag-pirate.glb" id="22_6fnw7"]
+[ext_resource type="PackedScene" uid="uid://8kw0vtdg2k3y" path="res://assets/kenney_pirate-kit/Models/GLB format/flag.glb" id="23_ynn23"]
+[ext_resource type="PackedScene" uid="uid://dnh6c3cfplbs7" path="res://assets/kenney_pirate-kit/Models/GLB format/grass-patch.glb" id="24_q1wun"]
+[ext_resource type="PackedScene" uid="uid://bwyxy8gmgs0os" path="res://assets/kenney_pirate-kit/Models/GLB format/grass-plant.glb" id="25_66sqt"]
+[ext_resource type="PackedScene" uid="uid://bdl62xxk8f5b4" path="res://assets/kenney_pirate-kit/Models/GLB format/grass.glb" id="26_d50se"]
+[ext_resource type="PackedScene" uid="uid://cejf2xu1o8pe" path="res://assets/kenney_pirate-kit/Models/GLB format/hole.glb" id="27_upltn"]
+[ext_resource type="PackedScene" uid="uid://dkeg0nwbeh63a" path="res://assets/kenney_pirate-kit/Models/GLB format/mast-ropes.glb" id="28_7u4ai"]
+[ext_resource type="PackedScene" uid="uid://dxl44n6tp5mgq" path="res://assets/kenney_pirate-kit/Models/GLB format/mast.glb" id="29_hywgo"]
+[ext_resource type="PackedScene" uid="uid://duvrwwlyvum5x" path="res://assets/kenney_pirate-kit/Models/GLB format/palm-bend.glb" id="30_5saph"]
+[ext_resource type="PackedScene" uid="uid://cb63njgkdw4x3" path="res://assets/kenney_pirate-kit/Models/GLB format/palm-detailed-bend.glb" id="31_v1bsn"]
+[ext_resource type="PackedScene" uid="uid://dq0hxqu6kr0is" path="res://assets/kenney_pirate-kit/Models/GLB format/palm-detailed-straight.glb" id="32_lybo2"]
+[ext_resource type="PackedScene" uid="uid://dfcduvdlspmq8" path="res://assets/kenney_pirate-kit/Models/GLB format/palm-straight.glb" id="33_3hf40"]
+[ext_resource type="PackedScene" uid="uid://b42pwn1e2gg2m" path="res://assets/kenney_pirate-kit/Models/GLB format/patch-grass-foliage.glb" id="34_kgljr"]
+[ext_resource type="PackedScene" uid="uid://de77waejrhro0" path="res://assets/kenney_pirate-kit/Models/GLB format/patch-grass.glb" id="35_uyc6k"]
+[ext_resource type="PackedScene" uid="uid://6t8cy6280qrt" path="res://assets/kenney_pirate-kit/Models/GLB format/patch-sand-foliage.glb" id="36_se0q6"]
+[ext_resource type="PackedScene" uid="uid://qspaa10b3klx" path="res://assets/kenney_pirate-kit/Models/GLB format/patch-sand.glb" id="37_3itvx"]
+[ext_resource type="PackedScene" uid="uid://cs486kqjb2vre" path="res://assets/kenney_pirate-kit/Models/GLB format/platform-planks.glb" id="38_yks7a"]
+[ext_resource type="PackedScene" uid="uid://cuelvyyqtvxte" path="res://assets/kenney_pirate-kit/Models/GLB format/platform.glb" id="39_fjsk3"]
+[ext_resource type="PackedScene" uid="uid://brtbhqutluprk" path="res://assets/kenney_pirate-kit/Models/GLB format/rocks-a.glb" id="40_gp5om"]
+[ext_resource type="PackedScene" uid="uid://10k76ooom5cq" path="res://assets/kenney_pirate-kit/Models/GLB format/rocks-b.glb" id="41_mdx1h"]
+[ext_resource type="PackedScene" uid="uid://dr8gv11wlgsfg" path="res://assets/kenney_pirate-kit/Models/GLB format/rocks-c.glb" id="42_qygen"]
+[ext_resource type="PackedScene" uid="uid://cal3jc8v0ywd7" path="res://assets/kenney_pirate-kit/Models/GLB format/rocks-sand-a.glb" id="43_bn5ul"]
+[ext_resource type="PackedScene" uid="uid://c5fh1l3msbg20" path="res://assets/kenney_pirate-kit/Models/GLB format/rocks-sand-b.glb" id="44_0gkge"]
+[ext_resource type="PackedScene" uid="uid://bw1jfeqaqh83f" path="res://assets/kenney_pirate-kit/Models/GLB format/rocks-sand-c.glb" id="45_xcmbu"]
+[ext_resource type="PackedScene" uid="uid://vif1k1sbdbnh" path="res://assets/kenney_pirate-kit/Models/GLB format/ship-ghost.glb" id="46_txnvk"]
+[ext_resource type="PackedScene" uid="uid://v8fic1tg8wsb" path="res://assets/kenney_pirate-kit/Models/GLB format/ship-large.glb" id="47_hf8by"]
+[ext_resource type="PackedScene" uid="uid://bv1e1ag6c7xi0" path="res://assets/kenney_pirate-kit/Models/GLB format/ship-medium.glb" id="48_b2s3q"]
+[ext_resource type="PackedScene" uid="uid://c1dhycpc118pg" path="res://assets/kenney_pirate-kit/Models/GLB format/ship-pirate-large.glb" id="49_ehuat"]
+[ext_resource type="PackedScene" uid="uid://d4c0cm2efodo" path="res://assets/kenney_pirate-kit/Models/GLB format/ship-pirate-medium.glb" id="50_c1e6m"]
+[ext_resource type="PackedScene" uid="uid://c63g3bhvt7qav" path="res://assets/kenney_pirate-kit/Models/GLB format/ship-pirate-small.glb" id="51_c1ove"]
+[ext_resource type="PackedScene" uid="uid://bkkkkwrorlng6" path="res://assets/kenney_pirate-kit/Models/GLB format/ship-small.glb" id="52_hjt1a"]
+[ext_resource type="PackedScene" uid="uid://gbr3snhfr8xs" path="res://assets/kenney_pirate-kit/Models/GLB format/ship-wreck.glb" id="53_i4gde"]
+[ext_resource type="PackedScene" uid="uid://gcfxk83juv3a" path="res://assets/kenney_pirate-kit/Models/GLB format/structure-fence-sides.glb" id="54_6ec55"]
+[ext_resource type="PackedScene" uid="uid://dfdims0vadefh" path="res://assets/kenney_pirate-kit/Models/GLB format/structure-fence.glb" id="55_skqtr"]
+[ext_resource type="PackedScene" uid="uid://bb0rdw8gsccr4" path="res://assets/kenney_pirate-kit/Models/GLB format/structure-platform-dock-small.glb" id="56_bmfeo"]
+[ext_resource type="PackedScene" uid="uid://dxjmbb453g4ud" path="res://assets/kenney_pirate-kit/Models/GLB format/structure-platform-dock.glb" id="57_2222w"]
+[ext_resource type="PackedScene" uid="uid://br7hmps2brmfe" path="res://assets/kenney_pirate-kit/Models/GLB format/structure-platform-small.glb" id="58_u35y5"]
+[ext_resource type="PackedScene" uid="uid://bbga65omqqp68" path="res://assets/kenney_pirate-kit/Models/GLB format/structure-platform.glb" id="59_pq543"]
+[ext_resource type="PackedScene" uid="uid://c86qnp3ymaf5t" path="res://assets/kenney_pirate-kit/Models/GLB format/structure-roof.glb" id="60_vca75"]
+[ext_resource type="PackedScene" uid="uid://bx3m3oji444ab" path="res://assets/kenney_pirate-kit/Models/GLB format/structure.glb" id="61_dpdkt"]
+[ext_resource type="PackedScene" uid="uid://c8fajjr4b40le" path="res://assets/kenney_pirate-kit/Models/GLB format/tool-paddle.glb" id="62_bsne6"]
+[ext_resource type="PackedScene" uid="uid://cw8ojfviwo4pp" path="res://assets/kenney_pirate-kit/Models/GLB format/tool-shovel.glb" id="63_h1wrt"]
+[ext_resource type="PackedScene" uid="uid://d2sug1kbfbxcf" path="res://assets/kenney_pirate-kit/Models/GLB format/tower-base-door.glb" id="64_637c8"]
+[ext_resource type="PackedScene" uid="uid://d1w3kdpnqjlcm" path="res://assets/kenney_pirate-kit/Models/GLB format/tower-base.glb" id="65_0feaa"]
+[ext_resource type="PackedScene" uid="uid://fu3qvq6gjfi7" path="res://assets/kenney_pirate-kit/Models/GLB format/tower-complete-large.glb" id="66_pl6vk"]
+[ext_resource type="PackedScene" uid="uid://c0jecp5sjtnps" path="res://assets/kenney_pirate-kit/Models/GLB format/tower-complete-small.glb" id="67_nyw0t"]
+[ext_resource type="PackedScene" uid="uid://b8edjadt6jb3l" path="res://assets/kenney_pirate-kit/Models/GLB format/tower-middle-windows.glb" id="68_qf0q2"]
+[ext_resource type="PackedScene" uid="uid://wmjlmuwjkr54" path="res://assets/kenney_pirate-kit/Models/GLB format/tower-middle.glb" id="69_b1v4c"]
+[ext_resource type="PackedScene" uid="uid://bvcuwry26fpk6" path="res://assets/kenney_pirate-kit/Models/GLB format/tower-roof.glb" id="70_aqjsm"]
+[ext_resource type="PackedScene" uid="uid://u52pbhnvifrh" path="res://assets/kenney_pirate-kit/Models/GLB format/tower-top.glb" id="71_ccwvr"]
+[ext_resource type="PackedScene" uid="uid://dvourqct55xf6" path="res://assets/kenney_pirate-kit/Models/GLB format/tower-watch.glb" id="72_xypgx"]
+
+[node name="tiles_pirati" type="Node3D" unique_id=1829580433]
+
+[node name="barrel2" parent="." unique_id=96801003 instance=ExtResource("1_7mn2v")]
+
+[node name="boat-row-large2" parent="." unique_id=1089180690 instance=ExtResource("2_l0pre")]
+
+[node name="boat-row-small2" parent="." unique_id=509809058 instance=ExtResource("3_44uie")]
+
+[node name="bottle-large2" parent="." unique_id=687173275 instance=ExtResource("4_4onpr")]
+
+[node name="bottle2" parent="." unique_id=1938504623 instance=ExtResource("5_jkdqj")]
+
+[node name="cannon-ball2" parent="." unique_id=1543777272 instance=ExtResource("6_0gmo1")]
+
+[node name="cannon-mobile2" parent="." unique_id=262984705 instance=ExtResource("7_474em")]
+
+[node name="cannon2" parent="." unique_id=1407321042 instance=ExtResource("8_y1psq")]
+
+[node name="castle-door2" parent="." unique_id=1756548200 instance=ExtResource("9_1d65m")]
+
+[node name="castle-gate2" parent="." unique_id=275951291 instance=ExtResource("10_tx8eg")]
+
+[node name="castle-wall2" parent="." unique_id=1327483813 instance=ExtResource("11_5ge0x")]
+
+[node name="castle-window2" parent="." unique_id=1272465121 instance=ExtResource("12_t3m0v")]
+
+[node name="chest2" parent="." unique_id=1335147375 instance=ExtResource("13_soiw4")]
+
+[node name="crate-bottles2" parent="." unique_id=711911785 instance=ExtResource("14_73qcc")]
+
+[node name="crate2" parent="." unique_id=1605832415 instance=ExtResource("15_lw3vt")]
+
+[node name="flag-high-pennant2" parent="." unique_id=2053565375 instance=ExtResource("16_n7kpk")]
+
+[node name="flag-high2" parent="." unique_id=104020257 instance=ExtResource("17_k07a4")]
+
+[node name="flag-pennant2" parent="." unique_id=1490566281 instance=ExtResource("18_h08k1")]
+
+[node name="flag-pirate-high-pennant2" parent="." unique_id=39220084 instance=ExtResource("19_sik7c")]
+
+[node name="flag-pirate-high2" parent="." unique_id=1413702005 instance=ExtResource("20_xayc4")]
+
+[node name="flag-pirate-pennant2" parent="." unique_id=1170507268 instance=ExtResource("21_3ax4k")]
+
+[node name="flag-pirate2" parent="." unique_id=490556944 instance=ExtResource("22_6fnw7")]
+
+[node name="flag2" parent="." unique_id=748978487 instance=ExtResource("23_ynn23")]
+
+[node name="grass-patch2" parent="." unique_id=150074119 instance=ExtResource("24_q1wun")]
+
+[node name="grass-plant2" parent="." unique_id=625288818 instance=ExtResource("25_66sqt")]
+
+[node name="grass2" parent="." unique_id=1618453122 instance=ExtResource("26_d50se")]
+
+[node name="hole2" parent="." unique_id=315215342 instance=ExtResource("27_upltn")]
+
+[node name="mast-ropes2" parent="." unique_id=1900172757 instance=ExtResource("28_7u4ai")]
+
+[node name="mast2" parent="." unique_id=939862872 instance=ExtResource("29_hywgo")]
+
+[node name="palm-bend2" parent="." unique_id=1190470477 instance=ExtResource("30_5saph")]
+
+[node name="palm-detailed-bend2" parent="." unique_id=616187878 instance=ExtResource("31_v1bsn")]
+
+[node name="palm-detailed-straight2" parent="." unique_id=2056999153 instance=ExtResource("32_lybo2")]
+
+[node name="palm-straight2" parent="." unique_id=489494928 instance=ExtResource("33_3hf40")]
+
+[node name="patch-grass-foliage2" parent="." unique_id=1998180952 instance=ExtResource("34_kgljr")]
+
+[node name="patch-grass2" parent="." unique_id=1171858068 instance=ExtResource("35_uyc6k")]
+
+[node name="patch-sand-foliage2" parent="." unique_id=521098672 instance=ExtResource("36_se0q6")]
+
+[node name="patch-sand2" parent="." unique_id=145891030 instance=ExtResource("37_3itvx")]
+
+[node name="platform-planks2" parent="." unique_id=2018067482 instance=ExtResource("38_yks7a")]
+
+[node name="platform2" parent="." unique_id=365144504 instance=ExtResource("39_fjsk3")]
+
+[node name="rocks-a2" parent="." unique_id=431273071 instance=ExtResource("40_gp5om")]
+
+[node name="rocks-b2" parent="." unique_id=1828953779 instance=ExtResource("41_mdx1h")]
+
+[node name="rocks-c2" parent="." unique_id=1697082926 instance=ExtResource("42_qygen")]
+
+[node name="rocks-sand-a2" parent="." unique_id=2035206461 instance=ExtResource("43_bn5ul")]
+
+[node name="rocks-sand-b2" parent="." unique_id=1805803758 instance=ExtResource("44_0gkge")]
+
+[node name="rocks-sand-c2" parent="." unique_id=836676574 instance=ExtResource("45_xcmbu")]
+
+[node name="ship-ghost2" parent="." unique_id=37406666 instance=ExtResource("46_txnvk")]
+
+[node name="ship-large2" parent="." unique_id=1240308475 instance=ExtResource("47_hf8by")]
+
+[node name="ship-medium2" parent="." unique_id=1843458111 instance=ExtResource("48_b2s3q")]
+
+[node name="ship-pirate-large2" parent="." unique_id=1567577048 instance=ExtResource("49_ehuat")]
+
+[node name="ship-pirate-medium2" parent="." unique_id=1004780785 instance=ExtResource("50_c1e6m")]
+
+[node name="ship-pirate-small2" parent="." unique_id=1225577142 instance=ExtResource("51_c1ove")]
+
+[node name="ship-small2" parent="." unique_id=1500687899 instance=ExtResource("52_hjt1a")]
+
+[node name="ship-wreck2" parent="." unique_id=772083110 instance=ExtResource("53_i4gde")]
+
+[node name="structure-fence-sides2" parent="." unique_id=804994641 instance=ExtResource("54_6ec55")]
+
+[node name="structure-fence2" parent="." unique_id=707718671 instance=ExtResource("55_skqtr")]
+
+[node name="structure-platform-dock-small2" parent="." unique_id=2007483611 instance=ExtResource("56_bmfeo")]
+
+[node name="structure-platform-dock2" parent="." unique_id=595899604 instance=ExtResource("57_2222w")]
+
+[node name="structure-platform-small2" parent="." unique_id=620669413 instance=ExtResource("58_u35y5")]
+
+[node name="structure-platform2" parent="." unique_id=810705202 instance=ExtResource("59_pq543")]
+
+[node name="structure-roof2" parent="." unique_id=626251531 instance=ExtResource("60_vca75")]
+
+[node name="structure2" parent="." unique_id=1232947267 instance=ExtResource("61_dpdkt")]
+
+[node name="tool-paddle2" parent="." unique_id=494071314 instance=ExtResource("62_bsne6")]
+
+[node name="tool-shovel2" parent="." unique_id=97946538 instance=ExtResource("63_h1wrt")]
+
+[node name="tower-base-door2" parent="." unique_id=1378595401 instance=ExtResource("64_637c8")]
+
+[node name="tower-base2" parent="." unique_id=1121755880 instance=ExtResource("65_0feaa")]
+
+[node name="tower-complete-large2" parent="." unique_id=1362141659 instance=ExtResource("66_pl6vk")]
+
+[node name="tower-complete-small2" parent="." unique_id=1861690288 instance=ExtResource("67_nyw0t")]
+
+[node name="tower-middle-windows2" parent="." unique_id=1122512829 instance=ExtResource("68_qf0q2")]
+
+[node name="tower-middle2" parent="." unique_id=775827586 instance=ExtResource("69_b1v4c")]
+
+[node name="tower-roof2" parent="." unique_id=424760942 instance=ExtResource("70_aqjsm")]
+
+[node name="tower-top2" parent="." unique_id=1322954316 instance=ExtResource("71_ccwvr")]
+
+[node name="tower-watch2" parent="." unique_id=1958475483 instance=ExtResource("72_xypgx")]
